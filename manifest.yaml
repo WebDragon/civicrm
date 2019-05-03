@@ -1,0 +1,40 @@
+%YAML 1.2
+---
+Files:
+  - custom: CRM/Contribute/Form/Contribution/2/Confirm.php
+    vendor: CRM/Contribute/Form/Contribution/Confirm.php 
+            ( https://github.com/civicrm/civicrm-svn/blob/master~2747/CRM/Contribute/Form/Contribution/Confirm.php )
+  - custom: templates/CRM/Contribute/Form/Contribution/1/Confirm.tpl
+    vendor: templates/CRM/Contribute/Form/Contribution/Confirm.tpl 
+            ( https://github.com/civicrm/civicrm-svn/blob/master~2970/templates/CRM/Contribute/Form/Contribution/Confirm.tpl )
+  - custom: templates/CRM/Contribute/Form/Contribution/1/Main.tpl
+    vendor: templates/CRM/Contribute/Form/Contribution/Main.tpl 
+            ( https://github.com/civicrm/civicrm-svn/blob/master~2747/templates/CRM/Contribute/Form/Contribution/Main.tpl )
+  - custom: templates/CRM/Contribute/Form/Contribution/2b/Confirm.tpl
+    vendor: templates/CRM/Contribute/Form/Contribution/Confirm.tpl 
+            ( https://github.com/civicrm/civicrm-svn/blob/master~2970/templates/CRM/Contribute/Form/Contribution/Confirm.tpl )
+  - custom: templates/CRM/Price/Form/Calculate.tpl
+    vendor: templates/CRM/Price/Form/Calculate.tpl 
+            ( https://github.com/civicrm/civicrm-svn/blob/master~2970/templates/CRM/Price/Form/Calculate.tpl )
+  - custom: templates/CRM/Price/Form/PriceSet.tpl
+    vendor: templates/CRM/Price/Form/PriceSet.tpl 
+            ( https://github.com/civicrm/civicrm-svn/blob/master~1963/templates/CRM/Price/Form/PriceSet.tpl )
+  - custom: templates/CRM/Profile/Form/22/Dynamic.tpl
+    vendor: templates/CRM/Profile/Form/Dynamic.tpl 
+            ( https://github.com/civicrm/civicrm-svn/blob/master~2970/templates/CRM/Profile/Form/Dynamic.tpl )
+  - custom: templates/CRM/Profile/Form/22/Edit.tpl
+    vendor: templates/CRM/Profile/Form/Edit.tpl 
+            ( https://github.com/civicrm/civicrm-svn/blob/master~2970/templates/CRM/Profile/Form/Edit.tpl )
+  - custom: templates/CRM/Profile/Form/26/Edit.tpl
+    vendor: templates/CRM/Profile/Form/Edit.tpl 
+            ( https://github.com/civicrm/civicrm-svn/blob/master~2970/templates/CRM/Profile/Form/Edit.tpl )
+Extra:
+  - CRM/Profile/Form/22/ajax.php
+  - templates/CRM/Contribute/Form/Contribution/1/Main.extra.tpl
+  - templates/CRM/Contribute/Form/Contribution/2/Main.extra.tpl
+  - templates/CRM/Contribute/Form/Contribution/2b/Main.extra.tpl
+  - templates/CRM/Contribute/Form/Contribution/3/Main.extra.tpl
+  - templates/CRM/Price/Form/PriceSet.extra.tpl
+  - templates/CRM/Profile/Form/21/Edit.extra.tpl
+  - templates/CRM/Profile/Form/22/Edit.extra.tpl
+  - templates/CRM/Profile/Form/26/Edit.extra.tpl
