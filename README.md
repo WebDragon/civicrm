@@ -19,7 +19,7 @@
 
 - Fetches appropriate counties based on the selected province
 - Looks like there is exploitable SQLi in this file
-- Should be possible to use CiviCRM API to do this? But I'm not sure if such an API exists yet - would be a good contribution if not, would look very similar to the changes in [CRM-19688](https://issues.civicrm.org/jira/browse/CRM-19688) / [PR#9454](https://github.com/civicrm/civicrm-core/pull/9454). For StateProvince, the query would be:
+- Should be possible to use CiviCRM API to do this. The query in JS would be:
 
 ```js
 CRM.api3('Address', 'getoptions', {
