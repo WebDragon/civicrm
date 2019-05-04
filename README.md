@@ -22,9 +22,10 @@
 - Should be possible to use CiviCRM API to do this? But I'm not sure if such an API exists yet - would be a good contribution if not, would look very similar to the changes in [CRM-19688](https://issues.civicrm.org/jira/browse/CRM-19688) / [PR#9454](https://github.com/civicrm/civicrm-core/pull/9454). For StateProvince, the query would be:
 
 ```js
-CRM.api3('StateProvince', 'get', {
-  "sequential": 1,
-  "country_id": 1228 // United States
+CRM.api3('Address', 'getoptions', {
+  "key": "county_id",
+  "state_province_id": 1004,
+  "field": "county_id"
 }).done(function(result) {
   // do something with your API result here
 });
