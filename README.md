@@ -96,4 +96,4 @@ CRM.api3('StateProvince', 'get', {
 
 ### `templates/CRM/Profile/Form/26/Edit.tpl`
 
-- Requires authenticated user to view this form. Suggest checking this from a CiviCRM extension (eg by implementing [`hook_civicrm_buildForm()`](https://docs.civicrm.org/dev/en/latest/hooks/hook_civicrm_buildForm/) rather than at template layer.
+- Requires authenticated user to view this form. Suggest checking this from a CiviCRM extension (eg by implementing similar check in [`hook_civicrm_buildForm()`](https://docs.civicrm.org/dev/en/latest/hooks/hook_civicrm_buildForm/)) rather than at template layer.
