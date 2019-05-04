@@ -2,8 +2,8 @@
 
 ## General notes
 
-- Templatename.extra.tpl is included into Templatename.tpl if discovered. This is an easy way to add snippets (eg JS/CSS) to a template without having to change the core template (simplifies upgrades).
-- Overrides with an integer in the path apply only to a single entity, eg in the first instance the override will only apply to the Contribute page with id=22.
+- Templatename.extra.tpl is included into Templatename.tpl if discovered. This is an easy way to add snippets (eg JS/CSS) to a template without having to change the core template (simplifies upgrades). [docs](https://docs.civicrm.org/dev/en/latest/framework/templates/#appending-jquery-or-other-code-to-a-template)
+- Overrides with an integer in the path apply only to a single entity, eg in the first instance the override will only apply to the Contribute page with id=22. [docs](https://docs.civicrm.org/dev/en/latest/framework/templates/#scenario-the-contact-summary-screen-needs-to-be-changed)
 - If a customisation is to `path/to/2/something.php`, the base template to refer to is `path/to/something.php`.
 - First thing I'd check would be what you can drop immediately. The ones named `2b` can go. If any of contribution pages 1, 2, 3, 21, 22 or 26 are not actively used, you can drop the matching customisations from your requirements.
 
