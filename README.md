@@ -1,3 +1,7 @@
+# Origination
+
+The files seen here were identified via the use of the track-custom-parent.pl script: https://gist.github.com/WebDragon/d0db898acb41eefaa8deb84921a77d42 which contains heavy commenting and perldoc describing its function
+
 # Customisations
 
 ## General notes
